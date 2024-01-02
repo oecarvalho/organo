@@ -1,6 +1,6 @@
 @import url(./components/Banner/Banner.css);
 @import url(./components/CampoTexto/CampoTexto.css);
-
+@import url(./components/Formulario/Formulario.css);
 
 *{
     margin: 0;
