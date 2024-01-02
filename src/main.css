@@ -4,6 +4,7 @@
 @import url(./components/ListaSuspensa/ListaSuspensa.css);
 @import url(./components/Botao/Botao.css);
 @import url(./components/Time/Time.css);
+@import url(./components/Colaborador/Colaborador.css);
 
 *{
     margin: 0;
