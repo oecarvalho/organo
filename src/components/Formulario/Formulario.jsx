@@ -1,3 +1,4 @@
+import Botao from "../Botao/Botao";
 import CampoTexto from "../CampoTexto";
 import ListaSuspensa from "../ListaSuspensa/ListaSuspensa";
 
@@ -14,14 +15,19 @@ const Formulario = () =>{
         'Inovação e Gestão'
     ]
 
+    const aoSalvar = (event) =>{
+        event.preventDefault();
+    }
+
     return(
         <section className="formulario">
-            <form>
+            <form onSubmit={aoSalvar}>
                 <h2>Preencha os dados para criar o card do colaborador.</h2>
                 <CampoTexto label='Nome' placeholder='Digite o seu nome'/>
                 <CampoTexto label='Cargo' placeholder='Digite o seu cargo'/>
                 <CampoTexto label='Imagem' placeholder='Informe o endereço da Imagem'/>
                 <ListaSuspensa label='Time' itens = {times}/>
+                <Botao>Criar Card</Botao>
             </form>
         </section>
     )

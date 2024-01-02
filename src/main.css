@@ -2,6 +2,7 @@
 @import url(./components/CampoTexto/CampoTexto.css);
 @import url(./components/Formulario/Formulario.css);
 @import url(./components/ListaSuspensa/ListaSuspensa.css);
+@import url(./components/Botao/Botao.css);
 
 *{
     margin: 0;
