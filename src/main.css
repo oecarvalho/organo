@@ -3,6 +3,7 @@
 @import url(./components/Formulario/Formulario.css);
 @import url(./components/ListaSuspensa/ListaSuspensa.css);
 @import url(./components/Botao/Botao.css);
+@import url(./components/Time/Time.css);
 
 *{
     margin: 0;
