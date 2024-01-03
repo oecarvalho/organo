@@ -5,6 +5,7 @@
 @import url(./components/Botao/Botao.css);
 @import url(./components/Time/Time.css);
 @import url(./components/Colaborador/Colaborador.css);
+@import url(./components/Rodape/Rodape.css);
 
 *{
     margin: 0;

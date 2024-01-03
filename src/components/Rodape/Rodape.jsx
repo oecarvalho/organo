@@ -1,5 +1,5 @@
 
-const Footer = () => {
+const Rodape = () => {
     return (<footer className="footer">
         <section>
             <ul>
@@ -31,4 +31,4 @@ const Footer = () => {
     </footer>)
 }
 
-export default Footer
+export default Rodape
