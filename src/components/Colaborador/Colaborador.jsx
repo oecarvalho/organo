@@ -1,6 +1,6 @@
 
 
-const Colaborador = ({nome, cargo, imagem}) =>{
+const Colaborador = ({nome, imagem, cargo}) =>{
     return(
         <div className="colaborador">
             <div className="cabecalho">
